@@ -8,7 +8,7 @@ Bundler.require(*Rails.groups)
 
 module PersonalSite
   class Application < Rails::Application
-    config.assets.paths << Rails.root.join("vendor","assets")
+    config.assets.paths << Rails.root.join("vendor","assets", "images")
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
