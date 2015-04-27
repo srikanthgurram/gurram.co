@@ -35,5 +35,4 @@ features/output
 out
 
 cuke-failures.txt
-public/assets
 vendor/cache
